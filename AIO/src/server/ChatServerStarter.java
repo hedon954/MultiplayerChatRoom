@@ -2,12 +2,10 @@ package server;
 
 /**
  * @author Hedon Wang
- * @create 2021-09-18 10:38 PM
+ * @create 2021-09-24 4:39 PM
  */
 public class ChatServerStarter {
-
     public static void main(String[] args) {
-        ChatServer chatServer = new ChatServer();
-        chatServer.start();
+        new ChatServer(9999).start();
     }
 }
